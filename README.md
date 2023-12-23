@@ -1,16 +1,39 @@
-# Read-from-CSV
-
+### Read-from-CSV
 ## AIM:
+To write a python program for reading content from a CSV file.
 
 ## ALGORITHM:
-### Step 1:
-### Step 2:
-### Step 3:
-### Step 4:
-### Step 5:
+# Step 1:
+Import pandas as pd.
 
-## PROGRAM:
+# Step 2:
+Read the CSV file using read_csv method.
 
-## OUTPUT:
+# Step 3:
+Use head and tail method to get the required contents from the file.
 
-## RESULT:
+# Step 4:
+Use len() method to get the number of rows and columns.
+
+# Step 5:
+Display the result.
+
+# PROGRAM:
+```
+Developed by:Chandana Yendluri
+Register No: 23011258
+
+To write a python program for reading content from a CSV file.
+import pandas as pd
+df = pd.read_csv('data.csv')
+print(df.head(10))
+print(df.tail())
+print("Number of rows:",len(df.axes[0]))
+print("Number of columns:",len(df.axes[1]))
+```
+### OUTPUT:
+![image](https://github.com/23011258/Read-from-CSV/assets/139842204/69801f62-f54e-4f84-83f2-067fb8951c08)
+
+
+### RESULT:
+Thus python program for reading content from a CSV file is successful.
